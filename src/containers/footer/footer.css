@@ -1,0 +1,122 @@
+.app__footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-footer);
+}
+
+.app__footer-heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.app__footer-heading h1 {
+  font-family: var(--font-family);
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+.app__footer-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #ffff;
+  text-align: center;
+  margin-bottom: 10rem;
+  cursor: pointer;
+}
+.app__footer-btn p {
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  font-size: 18px;
+  line-height: 21.09px;
+  word-spacing: 2px;
+  color: #ffffff;
+}
+.app__footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  text-align: left;
+}
+.app__footer-links div {
+  width: 250px;
+  margin: 1rem;
+}
+.app__footer-links_logo {
+  display: flex;
+  flex-direction: column;
+}
+.app__footer-links_logo img {
+  width: 118px;
+  height: 30px;
+  margin-bottom: 1rem;
+}
+
+.app__footer-links_logo p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 40px;
+  color: #fff;
+}
+.app__footer-links_div {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+.app__footer-links_div h4 {
+  font-family: var(--font-family);
+  font-size: 14px;
+  line-height: 16.41px;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+.app__footer-links_div p {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14.06px;
+  color: #fff;
+  margin: 0.5rem 0;
+  cursor: pointer;
+}
+.app__footer-copyright {
+  font-family: var(--font-family);
+  font-size: 12px;
+  line-height: 14.06px;
+  color: #fff;
+  margin-top: 2rem;
+  width: 100%;
+  text-align: center;
+}
+.app__footer-copyright a {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 850px) {
+  .app__footer-heading h1 {
+    font-size: 44px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .app__footer-heading h1 {
+    font-size: 34px;
+    line-height: 42px;
+  }
+  .app__footer-links div {
+    margin: 1rem 0;
+  }
+  .app__footer-btn p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
